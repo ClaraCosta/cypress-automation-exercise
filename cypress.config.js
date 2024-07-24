@@ -6,5 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
+  e2e: {
+    baseUrl: 'https://www.automationexercise.com/',
+  }
+
   },
 });
