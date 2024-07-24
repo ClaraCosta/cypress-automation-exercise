@@ -4,8 +4,4 @@ describe('Visit Site', () => {
     cy.get('h1').contains('Automation')
     
   })
-
-  it('2 - Verify disponible items', () => {
-    cy.visit(Cypress.config('baseUrl'));
-  } )
 })
