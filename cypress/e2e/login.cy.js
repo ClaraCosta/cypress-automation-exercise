@@ -4,7 +4,7 @@ describe('Login', () => {
 //==================================================================================================================
 //                                                | LOGIN TESTS |
 //==================================================================================================================
-  it('1 - WHRONG - EMAIL', () => {
+  it('1 - Wrong - email', () => {
 
     //Access the URL 
     cy.visit(Cypress.config('baseUrl'));
@@ -25,7 +25,7 @@ describe('Login', () => {
 
   })
 
-  it('2 - WHRONG - PASSWORD', () => {
+  it('2 - Wrong - password', () => {
 
     //Access the URL 
     cy.visit(Cypress.config('baseUrl'));
@@ -45,7 +45,7 @@ describe('Login', () => {
 
   })
 
-  it('3 - CORRECT - EMAIL AND PASSWORD', () => {
+  it('3 - Correct - email and password', () => {
 
     //Access the URL 
     cy.visit(Cypress.config('baseUrl'));
